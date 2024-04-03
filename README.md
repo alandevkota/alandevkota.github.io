@@ -1,19 +1,19 @@
 # Electrical and Computer Engineer
-#### Software Skills: Python, C, C++, MATLAB, Core Java and Web Basics
-#### Scripting: MATLAB, Python
-#### Neural Network Frameworks: PyTorch, Keras
-#### Libraries: numpy, pandas, Matplotlib
-#### HDL, Synthesis and Verification: Verilog RTL, SystemVerilog, VHDL, Synopsys VCS, Xilinx Vivado
-#### Version Control: Git
-#### Developer Tools: Visual Studio Code, Jupyter Notebook, Anaconda
-#### Other Skills: Linux, Windows, LaTeX, Office Suite, Statistics
+- Software Skills: Python, C, C++, MATLAB, Core Java and Web Basics
+- Scripting: MATLAB, Python
+- Neural Network Frameworks: PyTorch, Keras
+- Libraries: numpy, pandas, Matplotlib
+- HDL, Synthesis and Verification: Verilog RTL, SystemVerilog, VHDL, Synopsys VCS, Xilinx Vivado
+- Version Control: Git
+- Developer Tools: Visual Studio Code, Jupyter Notebook, Anaconda
+- Other Skills: Linux, Windows, LaTeX, Office Suite, Statistics
 
-## Education
+# Education
 - Ph.D., Electrical and Computer Engineering | University of Houston | (_Present_)								       		
 - M.S., Electrical and Computer Engineering | Southern Illinois University | (_May 2022_)	 			        		
 - B.S., Electronics and Communication Engineering | Tribhuvan University | (_Sept 2017_)
 
-## Work Experience
+# Work Experience
 **Graduate Research Assistant @ Efficient Computer Systems (ECOMS) Lab, University of Houston (_Aug 2022 - Present_)**
 - Transformer Newural Networks Attack and Defense, Multimodal Neural Networks, Convolutional Neural Network, Object Detection Transformers, Vision Transformers, Machine learning and AI, Computer Architecture, Computer vision, and Object Detection 
 - Adversarial Attack and Defense on Transformer Neural Networks, Patch-Based Attacks on Vision Transformers, Undervolting noise for Adversarial Training
@@ -40,8 +40,8 @@
 - Preparing technical reports. Conducting routers, switches, and cable installation projects for wired and wireless networks
 - Design and analysis of electrical circuits, PCB fabrication, coding of microcontrollers, system modeling and simulations
 
-## Publications
+# Publications
 1. D. L. Galappaththige, A. Devkota and G. Amarasuriya, "On the Performance of IRS-Assisted Relay Systems," 2021 IEEE Global Communications Conference (GLOBECOM), 2021, pp. 01-06, doi: 10.1109/GLOBECOM46510.2021.9685500. [ _Link_](https://doi.org/10.1109/GLOBECOM46510.2021.9685500)
 2. Devkota, Alan. Performance Analysis of RIS-Assisted Relay Systems. Southern Illinois University at Carbondale, 2022. [ _Link_](http://search.proquest.com.ezproxy.lib.uh.edu/dissertations-theses/performance-analysis-ris-assisted-relay-systems/docview/2744623082/se-2?accountid=7107)
 
-## Projects
+# Projects
