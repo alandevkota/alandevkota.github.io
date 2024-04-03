@@ -1,12 +1,12 @@
 # Electrical and Computer Engineer
-- Software Skills: Python, C, C++, MATLAB, Core Java and Web Basics
-- Scripting: MATLAB, Python
-- Neural Network Frameworks: PyTorch, Keras
-- Libraries: numpy, pandas, Matplotlib
-- HDL, Synthesis and Verification: Verilog RTL, SystemVerilog, VHDL, Synopsys VCS, Xilinx Vivado
-- Version Control: Git
-- Developer Tools: Visual Studio Code, Jupyter Notebook, Anaconda
-- Other Skills: Linux, Windows, LaTeX, Office Suite, Statistics
+- Software Skills: | Python, C, C++, MATLAB, Core Java and Web Basics
+- Scripting: | MATLAB, Python
+- Neural Network Frameworks: | PyTorch, Keras
+- Libraries: | numpy, pandas, Matplotlib
+- HDL, Synthesis and Verification: | Verilog RTL, SystemVerilog, VHDL, Synopsys VCS, Xilinx Vivado
+- Version Control: | Git
+- Developer Tools: | Visual Studio Code, Jupyter Notebook, Anaconda
+- Other Skills: | Linux, Windows, LaTeX, Office Suite, Statistics
 
 # Education
 - Ph.D., Electrical and Computer Engineering | University of Houston | (_Present_)								       		
