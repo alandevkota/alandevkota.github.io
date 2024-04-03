@@ -11,7 +11,7 @@
 ## Education
 - Ph.D., Electrical and Computer Engineering | University of Houston | (_Present_)								       		
 - M.S., Electrical and Computer Engineering | Southern Illinois University | (_May 2022_)	 			        		
-- B.S., Electronic and Communication Engineering | Tribhuvan University | (_Sept 2017_)
+- B.S., Electronics and Communication Engineering | Tribhuvan University | (_Sept 2017_)
 
 ## Work Experience
 **Graduate Research Assistant @ Efficient Computer Systems (ECOMS) Lab, University of Houston (_Aug 2022 - Present_)**
