@@ -39,3 +39,9 @@
 - Guiding, and supervising fresh graduate engineers in electrical, optical fiber communication, and telecommunication projects
 - Preparing technical reports. Conducting routers, switches, and cable installation projects for wired and wireless networks
 - Design and analysis of electrical circuits, PCB fabrication, coding of microcontrollers, system modeling and simulations
+
+## Publications
+1. D. L. Galappaththige, A. Devkota and G. Amarasuriya, "On the Performance of IRS-Assisted Relay Systems," 2021 IEEE Global Communications Conference (GLOBECOM), 2021, pp. 01-06, doi: 10.1109/GLOBECOM46510.2021.9685500. [ _Link_](https://doi.org/10.1109/GLOBECOM46510.2021.9685500)
+2. Devkota, Alan. Performance Analysis of RIS-Assisted Relay Systems. Southern Illinois University at Carbondale, 2022. [ _Link_](http://search.proquest.com.ezproxy.lib.uh.edu/dissertations-theses/performance-analysis-ris-assisted-relay-systems/docview/2744623082/se-2?accountid=7107)
+
+## Projects
