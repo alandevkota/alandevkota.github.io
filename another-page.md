@@ -69,9 +69,68 @@ Unlike DETR, our focus in this experiment is to develop a transformer model that
 _Please view my project in **Github** for **codes**. NOTE: We will update code after completion of project_ (Click here to open: [ _Github-Repo-link_ ](https://github.com/alandevkota/Multimodal_DETR))
 
 
+## N-Body Simulation with CPU and CUDA
+
+The N-body problem is used in this project to mimic how particles move across space. The project comprises a Python-based serial implementation and a C++/Cuda-based parallel implementation. A program is generated that simulates gravitational force between n bodies in space, exploiting the massively parallel architecture provided by GPGPUs. This program generates N particle locations over a specified number of timesteps. Moreover, it produces gif plots to visualize the bodies in the simulation similar to stars in the galaxy. The results generated compare the performance of CPU-based implementation and GPU-based implementation.
+
+### Methodology
+
+The force on each body in the all-pairs method is the total acceleration induced by every other particle multiplied by the mass of that body. A single thread calculates forces on a single body individually. For every particle, the total of all accelerations is evaluated to calculate the velocity and new position. Each particle’s position and velocity are updated at every time step. To parallelize the code 1024 threads were selected and for each thread aceleration, position, inverse division and softening were computed via kernels. (Run nbody.py OR nbody.cu to generate data from the N-body simulation. Run simulation.py to visualize the simulation.)
+
+### Steps to run the nbody simulation: 
+
+First, the position of N particles is generated over a given number of timesteps and stored in an output text file for both CPU and GPU implementations. The nbody.py is the python CPU-based program that creates an output py.txt text file. N and timesteps are command line arguments illustrated in the example below:
 
 
+*   python nbody.py 1000 150
 
+The nbody.cu is the GPU-based program compiled to create an executable file called nbody. Executing nbody creates an output cu.txt text file. N and timesteps are command line arguments illustrated in the example below:
+
+
+*   ./nbody 1000 150
+
+Next, the movement of the particle positions generated from the python and Cuda programs is plotted using a simulator program written in python. This program’s input file is supplied as a command line option for both CPU and GPU implementations illustrated in the examples below:
+
+
+*   python simulation.py output py.txt anim py.gif
+*   python simulation.py output cu.txt anim cu.gif
+
+
+Note: To create gif files for the simulation we need to install imagemagick library using ! apt install imagemagick. 
+
+Finally, the runtime of both CPU and GPU implementations are plotted by increasing the number of bodies in powers of 2 via an evaluation program written in python. The number of iterations (times the number of bodies increases) is supplied as a command line input illustrated in the example below:
+
+
+*   python evaluate.py 7
+
+The example in the code is running the evaluation with iterations=7.
+
+### Simulation
+
+**N-body simulation in CPU for N = 100 and timesteps = 150**
+
+![alt text](./NBody/gif%20animated%20images/anim_py.gif)
+
+**N-body simulation in CUDA for N = 100 and timesteps = 150**
+
+![alt text](./NBody/gif%20animated%20images/anim_cu.gif)
+
+### Runtime Comparision Results
+
+Runtime Comparision: The runtime were plotted for both nbody.py and nbody.cu files by varying the number of bodies in power of 2 and selecting the timestep as 150
+
+Figure below shows the runtime for N=10 (1024 bodies). We can observe that the paralleled GPU implementation required approximately 30 seconds and serialized CPU implementation required approximately 3000 seconds (50 minutes approx).
+
+![alt text](./NBody/Results%20or%20Graphs/Evaluate_10_iter.png)
+
+_Please view my project in **Github** for **codes, Presentation Slides, Report, Figures and Results**_ (Click here to open: [ _Github-Repo-link_ ](https://github.com/alandevkota/N-Body-Simulation-implementation-with-both-CPU-and-CUDA))
+
+_Please see my **project report** here_ ([Click here: N Body Report](https://github.com/alandevkota/N-Body-Simulation-implementation-with-both-CPU-and-CUDA/blob/master/GPU_project_Report.pdf))
+
+_Link to directly run the project in google colab:_ ([Click here: Gooble Colab link](https://colab.research.google.com/drive/1V8g7oCyp1UxGWFdku9eMn44U1LkSuZdf?usp=sharing))
+
+**NOTE: _see Steps to run the nbody simulation from README file in github or follow instructions in the report_**
+<!-- ------------------------------- -->
 
 ## Android-App-Remote-Controlled-Vehicular-Robotic-Arm
 Remote controlled system (robot) from self developed android app that constantly performs the task of picking an object and moving it to the desired location (both automatic and manual).
@@ -97,4 +156,4 @@ _Please see my **presentation slides** here_ ([Click here: Slides ](https://gith
 ### Project Presentation video:
 _This is the **presentation video link** for our project:_ ([Click here: Video](https://uofh-my.sharepoint.com/personal/adevkot2_cougarnet_uh_edu/_layouts/15/stream.aspx?id=%2Fpersonal%2Fadevkot2%5Fcougarnet%5Fuh%5Fedu%2FDocuments%2FdemoProj%5FAHD%5Fteam%5FISAA%2FFull%5Fvideo%2Emp4&ga=1))
 
-[back](./)
+[back to **Home**](./)
