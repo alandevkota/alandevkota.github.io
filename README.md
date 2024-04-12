@@ -48,7 +48,7 @@
 
 - On the Performance of IRS-Assisted Relay Systems - 2021 IEEE Global Communications Conference (GLOBECOM) -  [_**GLOBECOM21_presentation video**_](https://saluki-my.sharepoint.com/:v:/g/personal/alan_devkota_siu_edu/EdIBVGc_q1BHr-8UEgZLWCUBJE-DVo3qc90SJKCcQY2IEA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Jv29gn), [_Presentation-slides_](https://github.com/alandevkota/IRS-assisted-relay-systems/blob/master/V1/IRS_relay_globecom.pdf)
 - Energy Harvesting in RIS-Assisted Relay Networks - Master's Thesis, Southern Illinois University Carbondale, Aug 2022 [_Link_](https://www.proquest.com/docview/2744623082?pq-origsite=gscholar&fromopenview=true&sourcetype=Dissertations%20&%20Theses)
-- Harnessing Heterogeneous Healthcare Data: An Attention Neural Network Approach, 2023 AI in Health Conference (AIHC), Hosted by the Ken Kennedy Institute at Rice University, Houston, Texas, Oct 2023 [_Link_]()
+- Harnessing Heterogeneous Healthcare Data: An Attention Neural Network Approach, 2023 AI in Health Conference (AIHC), Hosted by the Ken Kennedy Institute at Rice University, Houston, Texas, Oct 2023 [_Link_](https://github.com/alandevkota/2023AIHC/blob/master/AIHC.pdf)
 - Hardware Attacks on CNN and Transformer Neural Networks - ECE Graduate Research Seminar, University of Houston, Spring 2023 [_Link_](https://github.com/alandevkota/Seminar-Presentations/blob/master/Alan_Devkota_Feb10_Hardware_Attacks.pdf)
 - Multimodal Fusion in Transformer Neural Networks - ECE Graduate Research Seminar, University of Houston, Fall 2023 [_Link_](https://github.com/alandevkota/Seminar-Presentations/blob/master/Alan_Devkota_Sept29_Multimodal_Fusion%20-%20Copy.pdf)
 - DOTA: detect and omit weak attentions for scalable transformer acceleration - ECE Graduate Research Seminar, University of Houston, Spring 2024 [_Link_](https://github.com/alandevkota/Seminar-Presentations/blob/master/Alan_Devkota_Feb15_DOTA.pdf) or [_Link_](https://github.com/alandevkota/Seminar-Presentations/blob/master/Alan_Devkota_Feb15_DOTA_v2.pdf)
@@ -95,6 +95,14 @@ Our modified DETR transformer encoders extract the features from RGB and IR moda
 
 ****
 
+## Harnessing Heterogeneous Healthcare Data: An Attention Neural Network Approach
+
+We develop an attention neural network-based method for fusing heterogeneous healthcare data, emphasizing cross-modality attention transformer blocks for optimal modality integration. Moreover, we also integrate prompt learning to enhance the model's performance with datasets that have missing modalities, preserving the core structure of the model and optimizing computational resources.  
+
+### Example of two modality cross-attention in 1st stage then fusion and self-attention
+![_two modality cross attention, fusion, and self-attention_](./AIHC/two_modalities.png)
+
+****
 ## N-Body Simulation with CPU and CUDA
 
 The N-body problem is used in this project to mimic how particles move across space. The project comprises a Python-based serial implementation and a C++/Cuda-based parallel implementation. A program is generated that simulates gravitational force between n bodies in space, exploiting the massively parallel architecture provided by GPGPUs. This program generates N particle locations over a specified number of timesteps. Moreover, it produces gif plots to visualize the bodies in the simulation similar to stars in the galaxy. The results generated compare the performance of CPU-based implementation and GPU-based implementation.

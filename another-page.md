@@ -80,6 +80,17 @@ _Please view my project in **Github** for **codes**. NOTE: We will update code a
 
 ****
 
+## Harnessing Heterogeneous Healthcare Data: An Attention Neural Network Approach
+
+Many current machine learning (ML) models remain narrowly focused on a single data modality, which limits the ML models’ ability to make decisions from a holistic perspective. An added layer of complexity arises from the prevalent issue of data completeness. There is frequent occurence of missing modalities in healthcare data, introducing inconsistencies across patient datasets. For instance, different data modalities may be collected for different patients. Such disparities pose significant challenges for both ML and statistical analysis. To truly harness the vast potential of heterogeneous data, we develop advanced ML models that can semlessly integrate multiple data sources, addressing the challenges posed by missing modalities. We develop an attention neural network-based method for fusing heterogeneous healthcare data, emphasizing cross-modality attention transformer blocks for optimal modality integration. Moreover, we also integrate prompt learning to enhance the model's performance with datasets that have missing modalities, preserving the core structure of the model and optimizing computational resources.  
+
+### Example of two modality cross-attention in 1st stage then fusion and self-attention
+![_two modality cross attention, fusion, and self-attention_](./AIHC/two_modalities.png)
+
+_Please see my AIHC.pdf Poster for more information_ [Click here: Poster](https://github.com/alandevkota/2023AIHC/blob/master/AIHC.pdf)
+
+****
+
 ## N-Body Simulation with CPU and CUDA
 
 The N-body problem is used in this project to mimic how particles move across space. The project comprises a Python-based serial implementation and a C++/Cuda-based parallel implementation. A program is generated that simulates gravitational force between n bodies in space, exploiting the massively parallel architecture provided by GPGPUs. This program generates N particle locations over a specified number of timesteps. Moreover, it produces gif plots to visualize the bodies in the simulation similar to stars in the galaxy. The results generated compare the performance of CPU-based implementation and GPU-based implementation.
