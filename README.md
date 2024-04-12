@@ -48,6 +48,8 @@
 
 ### Click here for more detail about my projects [Link to my Project](./another-page.md)
 
+****
+
 ## Energy Harvesting in RIS-Assisted Relay Networks
 <!-- [ Publication ](https://www.proquest.com/docview/2744623082?pq-origsite=gscholar&fromopenview=true&sourcetype=Dissertations%20&%20Theses) -->
 
@@ -56,6 +58,7 @@ First, an RIS-assisted relay system model is proposed to improve the wireless sy
 
 ![System and channel model](./EH/pic_model.png)
 
+****
 
 ## On the Performance of IRS-Assisted Relay Systems
 <!-- [ Publication ](https://doi.org/10.1109/GLOBECOM46510.2021.9685500) -->
@@ -64,6 +67,7 @@ This project investigates the performance of intelligence reflective surface (IR
 
 ![System and channel model](./Globecom/pic_model.png)
 
+****
 
 ## Multispectral Object Detection using DETR with Early Fusion of Tokens
 
@@ -72,13 +76,14 @@ A topic we cover in this experimentation is using Detection Transformers (DETR) 
 ### Architecture
 ![Modified DETR](./MultiSpectralDETR/full-comb.png)
 
-
+****
 
 ## Multimodal Object Detection Transformer with Cross-Attention across Modalities
 
 The focus of this research is to develop a transformer model that integrates the information from different modalities together to enhance the prediction as well as address the challenges posed by missing modalities. 
 Our modified DETR transformer encoders extract the features from RGB and IR modality via two parallel ResNet50 backbone and harness the vast potential of heterogeneous data via channel fusion of modalities features (RGB and IR) using two parallel cross-attention encoders unlike the original DETR transformer model.
 
+****
 
 ## N-Body Simulation with CPU and CUDA
 
@@ -94,10 +99,13 @@ The N-body problem is used in this project to mimic how particles move across sp
 
 ![alt text](./NBody/gif%20animated%20images/anim_cu.gif)
 
+****
 
 ## Performance Impact of Basic Cache Configuration Parameters Using SimpleScalar
 
 This paper investigates the performance impact of several basic cache configuration parameters, such as the L1, L2, and TLB cache size, associativity, and block size using the SimpleScalar ”sim-outorder” model and the SPEC 2000 benchmark suite. The results generated illustrate the relationship between Miss Rate and modifications in cache size, associativity, and block size. The results also reveal the impact of the multilevel cache design as well as the efficacy of the TLB cache in enhancing data locality.
+
+****
 
 ## Android-App-Remote-Controlled-Vehicular-Robotic-Arm
 Remote controlled system (robot) from self developed android app that constantly performs the task of picking an object and moving it to the desired location (both automatic and manual).
@@ -107,6 +115,8 @@ In this project, a vehicular robotic arm is made and controlled by an Android mo
 
 ### Images
 ![alt text](./BluetoothAppRoboticArm/combo.png)
+
+****
 
 ## Multi-threaded Ray Tracing
 

@@ -4,6 +4,8 @@ layout: default
 
 # Projects
 
+****
+
 ## Energy Harvesting in RIS-Assisted Relay Networks
 [ Publication ](https://www.proquest.com/docview/2744623082?pq-origsite=gscholar&fromopenview=true&sourcetype=Dissertations%20&%20Theses)
 
@@ -20,6 +22,8 @@ _Please view my project in **Github** for **MATLAB codes, Presentation Slides, F
 _Please see my **presentation slides** here_ (Click here to open: [ _Alan_Devkota_presentation_ ](https://github.com/alandevkota/EnergyHarvesting-IRS-Relay/blob/master/Alan_Devkota_presentation.pdf))
 
 
+****
+
 ## On the Performance of IRS-Assisted Relay Systems
 [ Publication ](https://doi.org/10.1109/GLOBECOM46510.2021.9685500)
 
@@ -34,6 +38,8 @@ _Please view my project in **Github** for **MATLAB codes, Presentation Slides, F
 _Please see my **presentation slides** here_ (Click here to open slides: [ _presentation-slides_ ](https://github.com/alandevkota/IRS-assisted-relay-systems/blob/master/V1/IRS_relay_globecom.pdf))
 
 _Please see my **GLOBECOM 2021 presentation video** here_ (Click here to open the conference video: [ _Alan_Devkota_presentation_ ](https://saluki-my.sharepoint.com/:v:/g/personal/alan_devkota_siu_edu/EdIBVGc_q1BHr-8UEgZLWCUBJE-DVo3qc90SJKCcQY2IEA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Jv29gn))
+
+****
 
 ## Multispectral Object Detection using DETR with Early Fusion of Tokens
 
@@ -56,6 +62,9 @@ _Please see my **project report** here_ ([Click here: Final Report](https://gith
 
 _Please see my **presentation slides** here_ ([Click here: Slides ](https://github.com/alandevkota/Multispectral-Object-Detection/blob/master/Multispectral%20Object%20Detection%20using%20DETR.pdf))
 
+
+****
+
 ## Multimodal Object Detection Transformer with Cross-Attention across Modalities
 
 The focus of this research is to develop a transformer model that integrates the information from different modalities together to enhance the prediction as well as address the challenges posed by missing modalities. 
@@ -68,6 +77,8 @@ Unlike DETR, our focus in this experiment is to develop a transformer model that
 
 _Please view my project in **Github** for **codes**. NOTE: We will update code after completion of project_ (Click here to open: [ _Github-Repo-link_ ](https://github.com/alandevkota/Multimodal_DETR))
 
+
+****
 
 ## N-Body Simulation with CPU and CUDA
 
@@ -134,6 +145,8 @@ _Link to directly run the project in google colab:_ ([Click here: Gooble Colab l
 **NOTE: _see Steps to run the nbody simulation from README file in github or follow instructions in the report_**
 
 
+****
+
 ## Performance Impact of Basic Cache Configuration Parameters Using SimpleScalar
 
 This paper investigates the performance impact of several basic cache configuration parameters, such as the L1, L2, and TLB cache size, associativity, and block size using the SimpleScalar ”sim-outorder” model and the SPEC 2000 benchmark suite. The results generated illustrate the relationship between Miss Rate and modifications in cache size, associativity, and block size. The results also reveal the impact of the multilevel cache design as well as the efficacy of the TLB cache in enhancing data locality.
@@ -182,6 +195,9 @@ _Please view my project in **Github** for **codes, Report, Figures and Results**
 
 _Please see my **project report** here_ ([Click here: ACA Report](https://github.com/alandevkota/Cache-Performance-Using-SimpleScalar/blob/master/ACA_project.pdf))
 
+
+****
+
 ## Android-App-Remote-Controlled-Vehicular-Robotic-Arm
 Remote controlled system (robot) from self developed android app that constantly performs the task of picking an object and moving it to the desired location (both automatic and manual).
 
@@ -206,6 +222,8 @@ _Please see my **presentation slides** here_ ([Click here: Slides ](https://gith
 ### Project Presentation video:
 _This is the **presentation video link** for our project:_ ([Click here: Video](https://uofh-my.sharepoint.com/personal/adevkot2_cougarnet_uh_edu/_layouts/15/stream.aspx?id=%2Fpersonal%2Fadevkot2%5Fcougarnet%5Fuh%5Fedu%2FDocuments%2FdemoProj%5FAHD%5Fteam%5FISAA%2FFull%5Fvideo%2Emp4&ga=1))
 
+
+****
 
 ## Multi-threaded Ray Tracing
 
