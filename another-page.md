@@ -182,7 +182,6 @@ _Please view my project in **Github** for **codes, Report, Figures and Results**
 
 _Please see my **project report** here_ ([Click here: ACA Report](https://github.com/alandevkota/Cache-Performance-Using-SimpleScalar/blob/master/ACA_project.pdf))
 
-
 ## Android-App-Remote-Controlled-Vehicular-Robotic-Arm
 Remote controlled system (robot) from self developed android app that constantly performs the task of picking an object and moving it to the desired location (both automatic and manual).
 
@@ -206,5 +205,18 @@ _Please see my **presentation slides** here_ ([Click here: Slides ](https://gith
 
 ### Project Presentation video:
 _This is the **presentation video link** for our project:_ ([Click here: Video](https://uofh-my.sharepoint.com/personal/adevkot2_cougarnet_uh_edu/_layouts/15/stream.aspx?id=%2Fpersonal%2Fadevkot2%5Fcougarnet%5Fuh%5Fedu%2FDocuments%2FdemoProj%5FAHD%5Fteam%5FISAA%2FFull%5Fvideo%2Emp4&ga=1))
+
+
+## Multi-threaded Ray Tracing
+
+This project implements ray-tracing algorithm that performs direct illumination of spheres.
+Here, the C++ codes will take two text files as input, describing a (a) list of spheres and a (b) list of lights. Then, it will output the ray-traced image as a Targa file which is further converted into JPG format using python code. One of the major objective of the project is to decrease the latency via parallelism. I successfully parallelized the codes using the C++ std::thread library.
+
+### Output
+
+![alt text](./RayTracing/output.jpg)
+Fig. 1. Ray Tracing and illumination of Spheres
+
+_Please view my project in **Github** for **codes, and figures**_ (Click here to open: [ _Github-Repo-link_ ](https://github.com/alandevkota/Multi-threaded-Ray-Tracing))
 
 ## [back to Home](./)

@@ -99,8 +99,6 @@ The N-body problem is used in this project to mimic how particles move across sp
 
 This paper investigates the performance impact of several basic cache configuration parameters, such as the L1, L2, and TLB cache size, associativity, and block size using the SimpleScalar ”sim-outorder” model and the SPEC 2000 benchmark suite. The results generated illustrate the relationship between Miss Rate and modifications in cache size, associativity, and block size. The results also reveal the impact of the multilevel cache design as well as the efficacy of the TLB cache in enhancing data locality.
 
-
-
 ## Android-App-Remote-Controlled-Vehicular-Robotic-Arm
 Remote controlled system (robot) from self developed android app that constantly performs the task of picking an object and moving it to the desired location (both automatic and manual).
 
@@ -109,6 +107,15 @@ In this project, a vehicular robotic arm is made and controlled by an Android mo
 
 ### Images
 ![alt text](./BluetoothAppRoboticArm/combo.png)
+
+## Multi-threaded Ray Tracing
+
+This project implements ray-tracing algorithm that performs direct illumination of spheres.
+Here, the C++ codes will take two text files as input, describing a (a) list of spheres and a (b) list of lights. Then, it will output the ray-traced image as a Targa file which is further converted into JPG format using python code. One of the major objective of the project is to decrease the latency via parallelism. I successfully parallelized the codes using the C++ std::thread library.
+
+### Output
+
+![alt text](./RayTracing/output.jpg)
 
 
 ### [**Next Page:** Link to my Projects with Detailed Explanations](./another-page.md)
