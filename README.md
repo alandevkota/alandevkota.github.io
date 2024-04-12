@@ -54,7 +54,7 @@ First, an RIS-assisted relay system model is proposed to improve the wireless sy
 
 ![System and channel model](./EH/pic_model.png)
 
-![Simulation: Combo](./EH/combo.png)
+![Simulation: Combo](./EH/comb.png)
 
 _Please view my project in **Github** for **MATLAB codes, Presentation Slides, Figures and Results**_ (Click here to open: [ _Github-Repo-link_ ](https://github.com/alandevkota/EnergyHarvesting-IRS-Relay))
 
