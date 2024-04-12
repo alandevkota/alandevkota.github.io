@@ -15,7 +15,7 @@
 
 # Work Experience
 **Graduate Research Assistant @ Efficient Computer Systems (ECOMS) Lab, University of Houston (_Aug 2022 - Present_)**
-- Transformer Newural Networks Attack and Defense, Multimodal Neural Networks, Convolutional Neural Network, Object Detection Transformers, Vision Transformers, Machine learning and AI, Computer Architecture, Computer vision, and Object Detection 
+- Transformer Neural Networks Attack and Defense, Multimodal Neural Networks, Convolutional Neural Network, Object Detection Transformers, Vision Transformers, Machine learning and AI, Computer Architecture, Computer vision, and Object Detection 
 - Adversarial Attack and Defense on Transformer Neural Networks, Patch-Based Attacks on Vision Transformers, Undervolting noise for Adversarial Training
 
 **Graduate Teaching Assistant @ ECE Department, University of Houston (_Spring 2023, Spring 2024_)**
@@ -45,3 +45,18 @@
 2. Devkota, Alan. Performance Analysis of RIS-Assisted Relay Systems. Southern Illinois University at Carbondale, 2022. [ _Link_](http://search.proquest.com.ezproxy.lib.uh.edu/dissertations-theses/performance-analysis-ris-assisted-relay-systems/docview/2744623082/se-2?accountid=7107)
 
 # Projects
+### Energy Harvesting in RIS-Assisted Relay Networks
+[ _Thesis_Report Link_](https://search.proquest.com/openview/51b8734f2a802215f1a126e336c397f8/1?pq-origsite=gscholar&cbl=18750&diss=y)
+
+As a part of my Master's thesis the performance of simultaneous wireless information and power transfer (SWIPT) is explored for the proposed RIS-assisted relay system.
+Because radio-frequency (RF) signals can convey both information and energy simultaneously, there has been much research interest in designing novel technologies for simultaneous wireless information and power transmission (SWIPT) and energy harvesting (EH).
+First, an RIS-assisted relay system model is proposed to improve the wireless system performance. By characterizing the optimal signal-to-noise ratio (SNR) attained through intelligent phase-shift controlling, the performance of the RIS-assisted relay system is investigated. Towards this end, tight bounds for the average achievable rate and optimal harvested energy are derived in closed-form for a hybrid SWIPT protocolThen, the performance of simultaneous wireless information and power transfer (SWIPT) is explored for the proposed RIS-assisted relay system. Also, the performance of linear EH models and non-linear EH models are compared via analytical and Monte-Carlo simulation results.
+
+![System and channel model](./EH/pic_model.png)
+
+![Simulation: Harvested Energy](./EH/pic_harvested-energy.png)
+
+![Simulation: Average achievable rate](./EH/pic_avg-achievable-rate.png)
+
+_Please view my project in **Github** for MATLAB codes, Presentation Slides, Figures and Results [ _Github-Repo_ ](https://github.com/alandevkota/EnergyHarvesting-IRS-Relay)
+_Please see presentation report here_ (Click here to open: [Link Alan_Devkota_presentation.pdf click here](https://github.com/alandevkota/EnergyHarvesting-IRS-Relay/blob/master/Alan_Devkota_presentation.pdf))
