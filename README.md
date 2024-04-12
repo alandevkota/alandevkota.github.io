@@ -44,9 +44,28 @@
 1. D. L. Galappaththige, A. Devkota and G. Amarasuriya, "On the Performance of IRS-Assisted Relay Systems," 2021 IEEE Global Communications Conference (GLOBECOM), 2021, pp. 01-06, doi: 10.1109/GLOBECOM46510.2021.9685500. [ _Link_](https://doi.org/10.1109/GLOBECOM46510.2021.9685500)
 2. Devkota, Alan. Performance Analysis of RIS-Assisted Relay Systems. Southern Illinois University at Carbondale, 2022. [ _Link_](http://search.proquest.com.ezproxy.lib.uh.edu/dissertations-theses/performance-analysis-ris-assisted-relay-systems/docview/2744623082/se-2?accountid=7107)
 
+## Talks, Seminar, Conference, Presentations and Poster
+
+- On the Performance of IRS-Assisted Relay Systems - 2021 IEEE Global Communications Conference (GLOBECOM) -  [_**GLOBECOM21_presentation video**_](https://saluki-my.sharepoint.com/:v:/g/personal/alan_devkota_siu_edu/EdIBVGc_q1BHr-8UEgZLWCUBJE-DVo3qc90SJKCcQY2IEA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Jv29gn), [_Presentation-slides_](https://github.com/alandevkota/IRS-assisted-relay-systems/blob/master/V1/IRS_relay_globecom.pdf)
+- Energy Harvesting in RIS-Assisted Relay Networks - Master's Thesis, Southern Illinois University Carbondale, Aug 2022 [_Link_](https://www.proquest.com/docview/2744623082?pq-origsite=gscholar&fromopenview=true&sourcetype=Dissertations%20&%20Theses)
+- Harnessing Heterogeneous Healthcare Data: An Attention Neural Network Approach, 2023 AI in Health Conference (AIHC), Hosted by the Ken Kennedy Institute at Rice University, Houston, Texas, Oct 2023 [_Link_]()
+- Hardware Attacks on CNN and Transformer Neural Networks - ECE Graduate Research Seminar, University of Houston, Spring 2023 [_Link_](https://github.com/alandevkota/Seminar-Presentations/blob/master/Alan_Devkota_Feb10_Hardware_Attacks.pdf)
+- Multimodal Fusion in Transformer Neural Networks - ECE Graduate Research Seminar, University of Houston, Fall 2023 [_Link_](https://github.com/alandevkota/Seminar-Presentations/blob/master/Alan_Devkota_Sept29_Multimodal_Fusion%20-%20Copy.pdf)
+- DOTA: detect and omit weak attentions for scalable transformer acceleration - ECE Graduate Research Seminar, University of Houston, Spring 2024 [_Link_](https://github.com/alandevkota/Seminar-Presentations/blob/master/Alan_Devkota_Feb15_DOTA.pdf) or [_Link_](https://github.com/alandevkota/Seminar-Presentations/blob/master/Alan_Devkota_Feb15_DOTA_v2.pdf)
+
 # Projects
 
 ### Click here for more detail about my projects [Link to my Project](./another-page.md)
+
+****
+
+## On the Performance of IRS-Assisted Relay Systems
+<!-- [ Publication ](https://doi.org/10.1109/GLOBECOM46510.2021.9685500) -->
+
+This project investigates the performance of intelligence reflective surface (IRS)-assisted relay systems. To this end, we quantify the optimal signal-to-noise ratio (SNR) attained by smartly controlling the phase-shifts of impinging electromagnetic waves upon an IRS. Thereby, a tightly approximated cumulative distribution function is derived to probabilistically characterize this optimal SNR. Then, we derive tight approximations/bounds for the achievable rate, outage probability, and average symbol error rate. Monte-Carlo simulations are used to validate our performance analysis. We present numerical results to reveal that the IRS-assisted relay system can boost the performance of end-to-end wireless transmissions.
+
+![System and channel model](./Globecom/pic_model.png)
+
 
 ****
 
@@ -57,15 +76,6 @@ Because radio-frequency (RF) signals can convey both information and energy simu
 First, an RIS-assisted relay system model is proposed to improve the wireless system performance. By characterizing the optimal signal-to-noise ratio (SNR) attained through intelligent phase-shift controlling, the performance of the RIS-assisted relay system is investigated. Then, the performance of simultaneous wireless information and power transfer (SWIPT) is explored for the proposed RIS-assisted relay system. Also, the performance of linear EH models and non-linear EH models are compared via analytical and Monte-Carlo simulation results.
 
 ![System and channel model](./EH/pic_model.png)
-
-****
-
-## On the Performance of IRS-Assisted Relay Systems
-<!-- [ Publication ](https://doi.org/10.1109/GLOBECOM46510.2021.9685500) -->
-
-This project investigates the performance of intelligence reflective surface (IRS)-assisted relay systems. To this end, we quantify the optimal signal-to-noise ratio (SNR) attained by smartly controlling the phase-shifts of impinging electromagnetic waves upon an IRS. Thereby, a tightly approximated cumulative distribution function is derived to probabilistically characterize this optimal SNR. Then, we derive tight approximations/bounds for the achievable rate, outage probability, and average symbol error rate. Monte-Carlo simulations are used to validate our performance analysis. We present numerical results to reveal that the IRS-assisted relay system can boost the performance of end-to-end wireless transmissions.
-
-![System and channel model](./Globecom/pic_model.png)
 
 ****
 
@@ -91,13 +101,12 @@ The N-body problem is used in this project to mimic how particles move across sp
 
 ### Simulation
 
-**N-body simulation in CPU for N = 100 and timesteps = 150**
-
 ![alt text](./NBody/gif%20animated%20images/anim_py.gif)
+**Fig: N-body simulation in CPU for N = 100 and timesteps = 150**
 
-**N-body simulation in CUDA for N = 100 and timesteps = 150**
 
 ![alt text](./NBody/gif%20animated%20images/anim_cu.gif)
+**Fig: N-body simulation in CUDA for N = 100 and timesteps = 150**
 
 ****
 
