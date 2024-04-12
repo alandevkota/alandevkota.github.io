@@ -108,3 +108,32 @@ We use the concept like retrieval from database by using query, keys, and value 
 Unlike DETR, our focus in this experiment is to develop a transformer model that integrates information from different modalities together to enhance the prediction. Our modified DETR transformer encoders extract the features from RGB and IR modality via two parallel ResNet50 backbone and harness the vast potential of heterogeneous data via channel fusion of modalities features (RGB and IR) using two parallel cross-attention encoders unlike the original DETR transformer model.
 
 _Please view my project in **Github** for **codes**. NOTE: We will update code after completion of project_ (Click here to open: [ _Github-Repo-link_ ](https://github.com/alandevkota/Multimodal_DETR))
+
+
+
+
+
+
+## Android-App-Remote-Controlled-Vehicular-Robotic-Arm
+Remote controlled system (robot) from self developed android app that constantly performs the task of picking an object and moving it to the desired location (both automatic and manual).
+
+
+In this project, a vehicular robotic arm is made and controlled by an Android mobile app. The development of this model is through ESP32 along with a mobile phone for controlling the robot. This prototype may be expected to overcome the problems of picking hazardous objects or non-hazardous objects that are far away from the user and where displacement of very heavy objects is needed from one place to another as automation is required in many industries.
+
+### Block Diagram
+![alt text](./BluetoothAppRoboticArm/block%20diag.jpg)
+
+### Images
+![alt text](./BluetoothAppRoboticArm/combo.png)
+
+### Bluetooth App Developed
+![ My App](./BluetoothAppRoboticArm/Bluetooth%20App.png)
+
+_Please view my project in **Github** for **codes, Presentation Slides, Report, Figures and Results**_ (Click here to open: [ _Github-Repo-link_ ](https://github.com/alandevkota/Android-App-Remote-Controlled-Vehicular-Robotic-Arm))
+
+_Please see my **project report** here_ ([Click here: Final Report](https://github.com/alandevkota/Android-App-Remote-Controlled-Vehicular-Robotic-Arm/blob/master/Vehicular%20Robotic%20Arm/ECE6372%20Team%20Project/doc/termProjectDesignDocument_%20ISAA.pdf))
+
+_Please see my **presentation slides** here_ ([Click here: Slides ](https://github.com/alandevkota/Android-App-Remote-Controlled-Vehicular-Robotic-Arm/blob/master/Vehicular%20Robotic%20Arm/ECE6372%20Team%20Project/doc/termProjectPresentation_%20ISAA.pdf))
+
+### Project Presentation video:
+_This is the **presentation video link** for our project:_ ([Click here: Video](https://uofh-my.sharepoint.com/personal/adevkot2_cougarnet_uh_edu/_layouts/15/stream.aspx?id=%2Fpersonal%2Fadevkot2%5Fcougarnet%5Fuh%5Fedu%2FDocuments%2FdemoProj%5FAHD%5Fteam%5FISAA%2FFull%5Fvideo%2Emp4&ga=1))
