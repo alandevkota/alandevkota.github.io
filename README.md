@@ -46,7 +46,7 @@
 
 # Projects
 
-### [Link to my Projects](./another-page.md)
+### Click here for more detail about project [Link to my Project](./another-page.md)
 
 ## Energy Harvesting in RIS-Assisted Relay Networks
 <!-- [ Publication ](https://www.proquest.com/docview/2744623082?pq-origsite=gscholar&fromopenview=true&sourcetype=Dissertations%20&%20Theses) -->
@@ -96,4 +96,4 @@ In this project, a vehicular robotic arm is made and controlled by an Android mo
 ![alt text](./BluetoothAppRoboticArm/combo.png)
 
 
-[Link to my Projects](./another-page.md)
+### [Link to my Projects](./another-page.md)
