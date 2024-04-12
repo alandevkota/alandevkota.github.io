@@ -2,6 +2,7 @@
 layout: default
 title: Alan Devkota
 ---
+## [back to Home](./)
 
 # Projects
 
