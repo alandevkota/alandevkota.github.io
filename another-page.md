@@ -2,7 +2,7 @@
 layout: default
 title: Alan Devkota
 ---
-## [back to Home](./)
+## [Back to Home](./)
 
 # Projects
 
@@ -251,4 +251,4 @@ Fig. 1. Ray Tracing and illumination of Spheres
 
 _Please view my project in **Github** for **codes, and figures**_ (Click here to open: [ _Github-Repo-link_ ](https://github.com/alandevkota/Multi-threaded-Ray-Tracing))
 
-## [back to Home](./)
+## [Back to Home](./)
