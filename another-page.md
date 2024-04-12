@@ -125,14 +125,63 @@ Figure below shows the runtime for N=10 (1024 bodies). We can observe that the p
 
 CUDA provides an outstanding hardware layer for running massively parallel programs, and CUDA-enabled GPUs shine when pushed to their limits (upwards of 10000 threads per GPU). It is also dependent on utilizing the computing specifications. The location of the n bodies can be simulated over a specified number of timesteps using python CPU-based and CUDA GPU-based implementation. The performance of GPUbased implementation in GPU is approximately 99.6 times better than CPU-based implementation for my program.
 
-_Please view my project in **Github** for **codes, Presentation Slides, Report, Figures and Results**_ (Click here to open: [ _Github-Repo-link_ ](https://github.com/alandevkota/N-Body-Simulation-implementation-with-both-CPU-and-CUDA))
+_Please view my project in **Github** for **codes, Report, Figures and Results**_ (Click here to open: [ _Github-Repo-link_ ](https://github.com/alandevkota/N-Body-Simulation-implementation-with-both-CPU-and-CUDA))
 
 _Please see my **project report** here_ ([Click here: N Body Report](https://github.com/alandevkota/N-Body-Simulation-implementation-with-both-CPU-and-CUDA/blob/master/GPU_project_Report.pdf))
 
 _Link to directly run the project in google colab:_ ([Click here: Gooble Colab link](https://colab.research.google.com/drive/1V8g7oCyp1UxGWFdku9eMn44U1LkSuZdf?usp=sharing))
 
 **NOTE: _see Steps to run the nbody simulation from README file in github or follow instructions in the report_**
-<!-- ------------------------------- -->
+
+
+## Performance Impact of Basic Cache Configuration Parameters Using SimpleScalar
+
+This paper investigates the performance impact of several basic cache configuration parameters, such as the L1, L2, and TLB cache size, associativity, and block size using the SimpleScalar ”sim-outorder” model and the SPEC 2000 benchmark suite. The results generated illustrate the relationship between Miss Rate and modifications in cache size, associativity, and block size. The results also reveal the impact of the multilevel cache design as well as the efficacy of the TLB cache in enhancing data locality.
+
+### Experimental Results
+The cache parameters corresponding to the Instruction cache and data cache in the configuration files were varied to form 10 different setups. Then, a shell script was used to run each configuration on each SPEC2000 benchmarks. First, 100 million instructions were skipped to ensure proper warming up of the caches. Then, each benchmark was run for 100 million instructions to acquire the results.
+
+The results illustrate the relationship between Miss Rate and modifications in cache size, associativity, and block size. The results also reveal the impact of the multilevel cache design as well as the efficacy of the TLB cache in enhancing data locality.
+
+### Images
+
+![alt text](./Picture1.png)
+Fig. 1. Instruction Cache L1 Miss Rate by changing the cache size with constant block size of 32B and 1-way associativity.
+
+![alt text](./Picture2.png)
+Fig. 2. Data Cache L1 Miss Rate by changing the cache size with constant block size of 32B and 1-way associativity.
+
+![alt text](./Picture3.png)
+Fig. 3. Miss Rate for L2 cache by changing the cache size with constant block size of 64B and 4-way associativity
+
+![alt text](./Picture4.png)
+Fig. 4. L2 Cache Vs L1 Cache Miss Rate by changing the L2 cache size and keeping block size of 64B and 4-way associativity (L1 cache size is 512 KB).
+
+![alt text](./Picture5.png)
+Fig. 5. Miss Rate for L1 data cache by changing the associativity with constant cache size of 32KB and block size of 32B.
+
+![alt text](./Picture6.png)
+Fig. 6. Miss Rate for L1 Instruction Cache with change in block size setting constant cache size of 512KB and associativity as 1-way.
+
+![alt text](./Picture7.png)
+Fig. 7. IPC value for every Benchmarks
+
+![alt text](./Picture8.png)
+Fig. 8. CPI value for every Benchmarks
+
+![alt text](./Picture9.png)
+Fig. 9. Hit Count and Accesses for TLB Instruction Cache
+
+![alt text](./Picture10.png)
+Fig. 10. Hit Count and Accesses for TLB Data Cache
+
+![alt text](./Picture11.png)
+Fig. 11. Load/ Store Count in benchmarks.
+
+_Please view my project in **Github** for **codes, Report, Figures and Results**_ (Click here to open: [ _Github-Repo-link_ ](https://github.com/alandevkota/Cache-Performance-Using-SimpleScalar))
+
+_Please see my **project report** here_ ([Click here: ACA Report](https://github.com/alandevkota/Cache-Performance-Using-SimpleScalar/blob/master/ACA_project.pdf))
+
 
 ## Android-App-Remote-Controlled-Vehicular-Robotic-Arm
 Remote controlled system (robot) from self developed android app that constantly performs the task of picking an object and moving it to the desired location (both automatic and manual).
@@ -158,4 +207,4 @@ _Please see my **presentation slides** here_ ([Click here: Slides ](https://gith
 ### Project Presentation video:
 _This is the **presentation video link** for our project:_ ([Click here: Video](https://uofh-my.sharepoint.com/personal/adevkot2_cougarnet_uh_edu/_layouts/15/stream.aspx?id=%2Fpersonal%2Fadevkot2%5Fcougarnet%5Fuh%5Fedu%2FDocuments%2FdemoProj%5FAHD%5Fteam%5FISAA%2FFull%5Fvideo%2Emp4&ga=1))
 
-[back to **Home**](./)
+## [back to Home](./)

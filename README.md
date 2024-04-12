@@ -95,7 +95,9 @@ The N-body problem is used in this project to mimic how particles move across sp
 ![alt text](./NBody/gif%20animated%20images/anim_cu.gif)
 
 
+## Performance Impact of Basic Cache Configuration Parameters Using SimpleScalar
 
+This paper investigates the performance impact of several basic cache configuration parameters, such as the L1, L2, and TLB cache size, associativity, and block size using the SimpleScalar ”sim-outorder” model and the SPEC 2000 benchmark suite. The results generated illustrate the relationship between Miss Rate and modifications in cache size, associativity, and block size. The results also reveal the impact of the multilevel cache design as well as the efficacy of the TLB cache in enhancing data locality.
 
 
 
