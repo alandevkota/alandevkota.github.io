@@ -45,7 +45,7 @@
 2. Devkota, Alan. Performance Analysis of RIS-Assisted Relay Systems. Southern Illinois University at Carbondale, 2022. [ _Link_](http://search.proquest.com.ezproxy.lib.uh.edu/dissertations-theses/performance-analysis-ris-assisted-relay-systems/docview/2744623082/se-2?accountid=7107)
 
 # Projects
-### Energy Harvesting in RIS-Assisted Relay Networks
+## Energy Harvesting in RIS-Assisted Relay Networks
 [ Publication ](https://www.proquest.com/docview/2744623082?pq-origsite=gscholar&fromopenview=true&sourcetype=Dissertations%20&%20Theses)
 
 As a part of my Master's thesis the performance of simultaneous wireless information and power transfer (SWIPT) is explored for a Reflecting Reconfigurable Intelligent Surface (RIS)-assisted relay system.
@@ -54,29 +54,21 @@ First, an RIS-assisted relay system model is proposed to improve the wireless sy
 
 ![System and channel model](./EH/pic_model.png)
 
-![Simulation: Harvested Energy](./EH/pic_harvested-energy.png)
-
-![Simulation: Average achievable rate](./EH/pic_avg-achievable-rate.png)
+![Simulation: Combo](./EH/combo.png)
 
 _Please view my project in **Github** for **MATLAB codes, Presentation Slides, Figures and Results**_ (Click here to open: [ _Github-Repo-link_ ](https://github.com/alandevkota/EnergyHarvesting-IRS-Relay))
 
 _Please see my **presentation slides** here_ (Click here to open: [ _Alan_Devkota_presentation_ ](https://github.com/alandevkota/EnergyHarvesting-IRS-Relay/blob/master/Alan_Devkota_presentation.pdf))
 
 
-### On the Performance of IRS-Assisted Relay Systems
+## On the Performance of IRS-Assisted Relay Systems
 [ Publication ](https://doi.org/10.1109/GLOBECOM46510.2021.9685500)
 
 This project investigates the performance of intelligence reflective surface (IRS)-assisted relay systems. To this end, we quantify the optimal signal-to-noise ratio (SNR) attained by smartly controlling the phase-shifts of impinging electromagnetic waves upon an IRS. Thereby, a tightly approximated cumulative distribution function is derived to probabilistically characterize this optimal SNR. Then, we derive tight approximations/bounds for the achievable rate, outage probability, and average symbol error rate. Monte-Carlo simulations are used to validate our performance analysis. We present numerical results to reveal that the IRS-assisted relay system can boost the performance of end-to-end wireless transmissions.
 
 ![System and channel model](./Globecom/pic_model.png)
 
-![Simulation: Outage Probability](./Globecom/pic_outage-prob.png)
-
-![Simulation: Average achievable rate](./Globecom/pic_avg-achievable-rate.png)
-
-![Simulation: Average BER](./Globecom/pic_ber.png)
-
-![Simulation: Phase-shift quantization](./Globecom/pic_phase-shift-quant.png)
+![Simulation: Combo](./Globecom/comb.png)
 
 _Please view my project in **Github** for **MATLAB codes, Presentation Slides, Figures and Results**_ (Click here to open: [ _Github-Repo-link_ ](https://github.com/alandevkota/IRS-assisted-relay-systems))
 
