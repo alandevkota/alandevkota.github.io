@@ -46,10 +46,10 @@
 
 # Projects
 
-[Link to my Projects](./another-page.md)
+### [Link to my Projects](./another-page.md)
 
 ## Energy Harvesting in RIS-Assisted Relay Networks
-[ Publication ](https://www.proquest.com/docview/2744623082?pq-origsite=gscholar&fromopenview=true&sourcetype=Dissertations%20&%20Theses)
+<!-- [ Publication ](https://www.proquest.com/docview/2744623082?pq-origsite=gscholar&fromopenview=true&sourcetype=Dissertations%20&%20Theses) -->
 
 Because radio-frequency (RF) signals can convey both information and energy simultaneously, there has been much research interest in designing novel technologies for simultaneous wireless information and power transmission (SWIPT) and energy harvesting (EH).
 First, an RIS-assisted relay system model is proposed to improve the wireless system performance. By characterizing the optimal signal-to-noise ratio (SNR) attained through intelligent phase-shift controlling, the performance of the RIS-assisted relay system is investigated. Then, the performance of simultaneous wireless information and power transfer (SWIPT) is explored for the proposed RIS-assisted relay system. Also, the performance of linear EH models and non-linear EH models are compared via analytical and Monte-Carlo simulation results.
@@ -58,7 +58,7 @@ First, an RIS-assisted relay system model is proposed to improve the wireless sy
 
 
 ## On the Performance of IRS-Assisted Relay Systems
-[ Publication ](https://doi.org/10.1109/GLOBECOM46510.2021.9685500)
+<!-- [ Publication ](https://doi.org/10.1109/GLOBECOM46510.2021.9685500) -->
 
 This project investigates the performance of intelligence reflective surface (IRS)-assisted relay systems. To this end, we quantify the optimal signal-to-noise ratio (SNR) attained by smartly controlling the phase-shifts of impinging electromagnetic waves upon an IRS. Thereby, a tightly approximated cumulative distribution function is derived to probabilistically characterize this optimal SNR. Then, we derive tight approximations/bounds for the achievable rate, outage probability, and average symbol error rate. Monte-Carlo simulations are used to validate our performance analysis. We present numerical results to reveal that the IRS-assisted relay system can boost the performance of end-to-end wireless transmissions.
 
