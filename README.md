@@ -70,7 +70,7 @@ This project investigates the performance of intelligence reflective surface (IR
 A topic we cover in this experimentation is using Detection Transformers (DETR) as a means to conduct Multispectral Object Detection. Here we are using ResNet50 to extract features of both RGB and thermal images and then provide early token fusion by concatenating the extracted features from ResNe50 together and computing attention between the tokens of RGB and IR modalities to get learned feature representations.
 
 ### Architecture
-![Modified DETR](./MultiSpectralDETR/Modified-DETR.png)
+![Modified DETR](./MultiSpectralDETR/full-comb.png)
 
 
 
@@ -91,8 +91,6 @@ Remote controlled system (robot) from self developed android app that constantly
 
 
 In this project, a vehicular robotic arm is made and controlled by an Android mobile app. The development of this model is through ESP32 along with a mobile phone for controlling the robot. This prototype may be expected to overcome the problems of picking hazardous objects or non-hazardous objects that are far away from the user and where displacement of very heavy objects is needed from one place to another as automation is required in many industries.
-
-### Block Diagram
 
 ### Images
 ![alt text](./BluetoothAppRoboticArm/combo.png)
