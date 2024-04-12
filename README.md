@@ -74,7 +74,7 @@ A topic we cover in this experimentation is using Detection Transformers (DETR) 
 
 
 
-## Multispectral Object Detection using DETR with Early Fusion of Tokens
+## Multimodal Object Detection Transformer with Cross-Attention across Modalities
 
 The focus of this research is to develop a transformer model that integrates the information from different modalities together to enhance the prediction as well as address the challenges posed by missing modalities. 
 Our modified DETR transformer encoders extract the features from RGB and IR modality via two parallel ResNet50 backbone and harness the vast potential of heterogeneous data via channel fusion of modalities features (RGB and IR) using two parallel cross-attention encoders unlike the original DETR transformer model.

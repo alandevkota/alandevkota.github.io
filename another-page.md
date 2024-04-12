@@ -56,7 +56,7 @@ _Please see my **project report** here_ ([Click here: Final Report](https://gith
 
 _Please see my **presentation slides** here_ ([Click here: Slides ](https://github.com/alandevkota/Multispectral-Object-Detection/blob/master/Multispectral%20Object%20Detection%20using%20DETR.pdf))
 
-## Multispectral Object Detection using DETR with Early Fusion of Tokens
+## Multimodal Object Detection Transformer with Cross-Attention across Modalities
 
 The focus of this research is to develop a transformer model that integrates the information from different modalities together to enhance the prediction as well as address the challenges posed by missing modalities. 
 
