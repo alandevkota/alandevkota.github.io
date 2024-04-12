@@ -123,6 +123,8 @@ Figure below shows the runtime for N=10 (1024 bodies). We can observe that the p
 
 ![alt text](./NBody/Results%20or%20Graphs/Evaluate_10_iter.png)
 
+CUDA provides an outstanding hardware layer for running massively parallel programs, and CUDA-enabled GPUs shine when pushed to their limits (upwards of 10000 threads per GPU). It is also dependent on utilizing the computing specifications. The location of the n bodies can be simulated over a specified number of timesteps using python CPU-based and CUDA GPU-based implementation. The performance of GPUbased implementation in GPU is approximately 99.6 times better than CPU-based implementation for my program.
+
 _Please view my project in **Github** for **codes, Presentation Slides, Report, Figures and Results**_ (Click here to open: [ _Github-Repo-link_ ](https://github.com/alandevkota/N-Body-Simulation-implementation-with-both-CPU-and-CUDA))
 
 _Please see my **project report** here_ ([Click here: N Body Report](https://github.com/alandevkota/N-Body-Simulation-implementation-with-both-CPU-and-CUDA/blob/master/GPU_project_Report.pdf))

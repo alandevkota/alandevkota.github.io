@@ -80,6 +80,19 @@ The focus of this research is to develop a transformer model that integrates the
 Our modified DETR transformer encoders extract the features from RGB and IR modality via two parallel ResNet50 backbone and harness the vast potential of heterogeneous data via channel fusion of modalities features (RGB and IR) using two parallel cross-attention encoders unlike the original DETR transformer model.
 
 
+## N-Body Simulation with CPU and CUDA
+
+The N-body problem is used in this project to mimic how particles move across space. The project comprises a Python-based serial implementation and a C++/Cuda-based parallel implementation. A program is generated that simulates gravitational force between n bodies in space, exploiting the massively parallel architecture provided by GPGPUs. This program generates N particle locations over a specified number of timesteps. Moreover, it produces gif plots to visualize the bodies in the simulation similar to stars in the galaxy. The results generated compare the performance of CPU-based implementation and GPU-based implementation.
+
+### Simulation
+
+**N-body simulation in CPU for N = 100 and timesteps = 150**
+
+![alt text](./NBody/gif%20animated%20images/anim_py.gif)
+
+**N-body simulation in CUDA for N = 100 and timesteps = 150**
+
+![alt text](./NBody/gif%20animated%20images/anim_cu.gif)
 
 
 
