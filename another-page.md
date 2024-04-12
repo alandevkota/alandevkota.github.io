@@ -6,6 +6,8 @@ title: Alan Devkota
 
 # Projects
 
+### All my Project can also be found in my Github Repositories [Link to my Github Repositories](https://github.com/alandevkota?tab=repositories)
+
 ****
 
 ## On the Performance of IRS-Assisted Relay Systems
