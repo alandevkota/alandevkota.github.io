@@ -44,7 +44,7 @@
 
 # Publications
 1. D. L. Galappaththige, A. Devkota and G. Amarasuriya, "On the Performance of IRS-Assisted Relay Systems," 2021 IEEE Global Communications Conference (GLOBECOM), 2021, pp. 01-06, doi: 10.1109/GLOBECOM46510.2021.9685500. [ _Link_](https://doi.org/10.1109/GLOBECOM46510.2021.9685500)
-2. Devkota, Alan. Performance Analysis of RIS-Assisted Relay Systems. Southern Illinois University at Carbondale, 2022. [ _Link_](https://www.proquest.com/openview/51b8734f2a802215f1a126e336c397f8/1?pq-origsite=gscholar&cbl=18750&diss=y)
+2. Devkota, Alan. Performance Analysis of RIS-Assisted Relay Systems. Southern Illinois University at Carbondale, 2022. [ _Link_](https://www.proquest.com/docview/2744623082?pq-origsite=gscholar&fromopenview=true&sourcetype=Dissertations%20&%20Theses)
 
 ## Talks, Seminar, Conference, Presentations and Poster
 
