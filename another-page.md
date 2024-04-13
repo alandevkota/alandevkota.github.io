@@ -10,7 +10,7 @@ title: Alan Devkota
 
 ****
 
-## On the Performance of IRS-Assisted Relay Systems
+## Performance Analysis of IRS-Assisted Relay Systems
 [ Publication ](https://doi.org/10.1109/GLOBECOM46510.2021.9685500)
 
 This project investigates the performance of intelligence reflective surface (IRS)-assisted relay systems. To this end, we quantify the optimal signal-to-noise ratio (SNR) attained by smartly controlling the phase-shifts of impinging electromagnetic waves upon an IRS. Thereby, a tightly approximated cumulative distribution function is derived to probabilistically characterize this optimal SNR. Then, we derive tight approximations/ bounds for the achievable rate, outage probability, and average symbol error rate. Monte-Carlo simulations are used to validate our performance analysis. We present numerical results to reveal that the IRS-assisted relay system can boost the performance of end-to-end wireless transmissions.
