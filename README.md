@@ -1,4 +1,4 @@
-## [**Next Page:** Projects](./another-page.md)
+## [**Next Page:** Projects](./another-page.md) | [**My Resume:** Resume](./CV/Alan_Devkota_Resume.pdf)
 
 # **Electrical and Computer Engineer**
 - **Software Skills:** Python, C, C++, MATLAB, Core Java and Web Basics
