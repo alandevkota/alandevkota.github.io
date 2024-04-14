@@ -49,17 +49,17 @@
 ## Talks, Seminar, Conference, Presentations and Poster
 
 - On the Performance of IRS-Assisted Relay Systems - 2021 IEEE Global Communications Conference (GLOBECOM) 
-[_GLOBECOM21_presentation video_](https://saluki-my.sharepoint.com/:v:/g/personal/alan_devkota_siu_edu/EdIBVGc_q1BHr-8UEgZLWCUBJE-DVo3qc90SJKCcQY2IEA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Jv29gn), [_Presentation-slides_](./Globecom/IRS_relay_globecom.pdf)
+[_Link: GLOBECOMM21-Presentation-video_](https://saluki-my.sharepoint.com/:v:/g/personal/alan_devkota_siu_edu/EdIBVGc_q1BHr-8UEgZLWCUBJE-DVo3qc90SJKCcQY2IEA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Jv29gn), [_Link: Presentation-slides_](./Globecom/IRS_relay_globecom.pdf)
 - Energy Harvesting in RIS-Assisted Relay Networks - Master's Thesis, Southern Illinois University Carbondale, Aug 2022 
-[_Thesis_Presentation-slides_](./EH/Alan_Devkota_presentation.pdf)
+[_Link: Thesis-slides-pdf_](./EH/Alan_Devkota_presentation.pdf)
 - Harnessing Heterogeneous Healthcare Data: An Attention Neural Network Approach, 2023 AI in Health Conference (AIHC), Hosted by the Ken Kennedy Institute at Rice University, Houston, Texas, Oct 2023 
-[_Poster-Link_](./AIHC/AIHC.pdf)
+[_Link: Poster-pdf_](./AIHC/AIHC.pdf)
 - Hardware Attacks on CNN and Transformer Neural Networks - ECE Graduate Research Seminar, University of Houston, Spring 2023 
-[_Presentation-slides-pdf_](./Presentation%20Slides/Alan_Devkota_Feb10_Hardware_Attacks.pdf)
+[_Link: Presentation-slides-pdf_](./Presentation%20Slides/Alan_Devkota_Feb10_Hardware_Attacks.pdf)
 - Multimodal Fusion in Transformer Neural Networks - ECE Graduate Research Seminar, University of Houston, Fall 2023 
-[_Presentation-slides-pdf_](./Presentation%20Slides/Alan_Devkota_Sept29_Multimodal_Fusion.pdf)
+[_Link: Presentation-slides-pdf_](./Presentation%20Slides/Alan_Devkota_Sept29_Multimodal_Fusion.pdf)
 - DOTA: detect and omit weak attentions for scalable transformer acceleration - ECE Graduate Research Seminar, University of Houston, Spring 2024 
-[_Presentation-slides-pdf_](./Presentation%20Slides/Alan_Devkota_Feb15_DOTA.pdf) or [_Presentation-slides-pdf_](./Presentation%20Slides/Alan_Devkota_Feb15_DOTA_v2.pdf)
+[_Link: Presentation-slides-pdf_](./Presentation%20Slides/Alan_Devkota_Feb15_DOTA.pdf) or [_Presentation-slides-pdf_](./Presentation%20Slides/Alan_Devkota_Feb15_DOTA_v2.pdf)
 
 # Projects
 
