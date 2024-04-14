@@ -2,7 +2,7 @@
 layout: default
 title: Alan Devkota
 ---
-## [**Previous Page:** Back to Home](./) | [**My Resume:** Resume](./CV/Alan_Devkota_Resume.pdf)
+## [**Previous Page:** Back to Home](./) | [**My Resume:** Alan](./CV/Alan_Devkota_Resume.pdf)
 
 # Projects
 
