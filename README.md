@@ -67,6 +67,48 @@
 
 ### All my Project can also be found in my Github Repositories [Link to my Github Repositories](https://github.com/alandevkota?tab=repositories)
 
+
+****
+
+## Performance Impact of Basic Cache Configuration Parameters Using SimpleScalar
+
+This paper investigates the performance impact of several basic cache configuration parameters, such as the L1, L2, and TLB cache size, associativity, and block size using the SimpleScalar ”sim-outorder” model and the SPEC 2000 benchmark suite. The results generated illustrate the relationship between Miss Rate and modifications in cache size, associativity, and block size. The results also reveal the impact of the multilevel cache design as well as the efficacy of the TLB cache in enhancing data locality.
+
+![alt text](./ACA-SimpleScalar/fig1-4.png)
+
+![alt text](./ACA-SimpleScalar/fig5-8.png)
+
+![alt text](./ACA-SimpleScalar/fig9-11.png)
+
+**Configurations**
+
+The configuration code is of form:
+
+- *<*name*>*:*<*nsets*>*:*<*bsize*>*:*<*assoc*>*:*<*repl*>* 
+
+Where each field has the following meaning:
+
+- *<*name*>* - cache name, which must be unique
+- *<*nsets*>* - number of sets in the cache
+- *<*bsize*>* - block size (page size in case of TLB)
+- *<*assoc*>* - associativity of the cache
+- *<*repl*>* - replacement policy (l \| f \| r),
+ 
+ where l = LRU, f = FIFO, r = random replacement.
+
+For example, il1:512:32:1:l code represents the L1 Instruction cache, with 512 sets, a block size of 32, associativity of 1, and a Least Recently Used (LRU) page replacement policy.
+The configurations used in the experiment are listed below:
+- Instruction cache size (8KB, 32 KB, and 64KB, block size and associativity follow the default configuration)
+- Data cache size (2KB, 32KB, and 128KB, all 4-way set associative, block size follows the default configuration)
+- Data cache associativity (1-way, 2-way, 8-way, all 32KB, block size follows the default configuration)
+- L2 cache size (128KB, 512KB, and 1MB, block size and associativity follow the default configuration)
+- L1 and L2 block size (32B, 64B, 128B, and 256B, cache size and associativity follow the default configuration)
+- L1 instruction and data cache size and associativity (64KB, 128KB, 512KB, 2-way, 4-way, 8-way)
+- L2 cache size and associativity (128KB, 512KB, and 1MB, 2-way, and 4-way)
+- TLB instruction cache size (64KB, 128KB, and 256KB)
+- TLB data cache size (64KB, 128KB, and 256KB)
+- TLB instruction and data associativity (2-way and 4-way)
+
 ****
 
 ## Performance Analysis of IRS-Assisted Relay Systems
@@ -125,47 +167,6 @@ The N-body problem is used in this project to mimic how particles move across sp
 
 ![alt text](./NBody/gif%20animated%20images/anim_cu.gif)
 **Fig: N-body simulation in CUDA for N = 100 and timesteps = 150**
-
-****
-
-## Performance Impact of Basic Cache Configuration Parameters Using SimpleScalar
-
-This paper investigates the performance impact of several basic cache configuration parameters, such as the L1, L2, and TLB cache size, associativity, and block size using the SimpleScalar ”sim-outorder” model and the SPEC 2000 benchmark suite. The results generated illustrate the relationship between Miss Rate and modifications in cache size, associativity, and block size. The results also reveal the impact of the multilevel cache design as well as the efficacy of the TLB cache in enhancing data locality.
-
-![alt text](./ACA-SimpleScalar/fig1-4.png)
-
-![alt text](./ACA-SimpleScalar/fig5-8.png)
-
-![alt text](./ACA-SimpleScalar/fig9-11.png)
-
-**Configurations**
-
-The configuration code is of form:
-
-- *<*name*>*:*<*nsets*>*:*<*bsize*>*:*<*assoc*>*:*<*repl*>* 
-
-Where each field has the following meaning:
-
-- *<*name*>* - cache name, which must be unique
-- *<*nsets*>* - number of sets in the cache
-- *<*bsize*>* - block size (page size in case of TLB)
-- *<*assoc*>* - associativity of the cache
-- *<*repl*>* - replacement policy (l \| f \| r),
- 
- where l = LRU, f = FIFO, r = random replacement.
-
-For example, il1:512:32:1:l code represents the L1 Instruction cache, with 512 sets, a block size of 32, associativity of 1, and a Least Recently Used (LRU) page replacement policy.
-The configurations used in the experiment are listed below:
-- Instruction cache size (8KB, 32 KB, and 64KB, block size and associativity follow the default configuration)
-- Data cache size (2KB, 32KB, and 128KB, all 4-way set associative, block size follows the default configuration)
-- Data cache associativity (1-way, 2-way, 8-way, all 32KB, block size follows the default configuration)
-- L2 cache size (128KB, 512KB, and 1MB, block size and associativity follow the default configuration)
-- L1 and L2 block size (32B, 64B, 128B, and 256B, cache size and associativity follow the default configuration)
-- L1 instruction and data cache size and associativity (64KB, 128KB, 512KB, 2-way, 4-way, 8-way)
-- L2 cache size and associativity (128KB, 512KB, and 1MB, 2-way, and 4-way)
-- TLB instruction cache size (64KB, 128KB, and 256KB)
-- TLB data cache size (64KB, 128KB, and 256KB)
-- TLB instruction and data associativity (2-way and 4-way)
 
 ****
 
