@@ -150,7 +150,7 @@ Where each field has the following meaning:
 - *<*nsets*>* - number of sets in the cache
 - *<*bsize*>* - block size (page size in case of TLB)
 - *<*assoc*>* - associativity of the cache
-- *<*repl*>* - replacement policy (l|f|r),
+- *<*repl*>* - replacement policy (l \| f \| r),
  
  where l = LRU, f = FIFO, r = random replacement.
 
