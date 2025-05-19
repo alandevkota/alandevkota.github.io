@@ -154,7 +154,7 @@ Where each field has the following meaning:
 
 - *<*assoc*>* - associativity of the cache
 
-- *<*repl*>* - replacement policy (l | f | r), where l = LRU, f = FIFO, r = random replacement.
+- *<*repl*>* - replacement policy (l *|* f *|* r), where l = LRU, f = FIFO, r = random replacement.
 
 For example, il1:512:32:1:l code represents the L1 Instruction cache, with 512 sets, a block size of 32, associativity of 1, and a Least Recently Used (LRU) page replacement policy.
 The configurations used in the experiment are listed below:
