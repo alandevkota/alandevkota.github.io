@@ -142,7 +142,7 @@ This paper investigates the performance impact of several basic cache configurat
 
 The configuration code is of form:
 
-- *<*name*>*:*<*nsets*>*:*<*bsize*>*:*<*assoc*>*:*<*repl>* 
+- *<*name*>*:*<*nsets*>*:*<*bsize*>*:*<*assoc*>*:*<*repl*>* 
 
 Where each field has the following meaning:
 
