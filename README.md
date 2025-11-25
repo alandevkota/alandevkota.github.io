@@ -1,22 +1,27 @@
 ## [**Resume:** Alan.pdf](./CV/Alan_Devkota_resume-wang.pdf) | [**LinkedIn:** alandevkota](https://www.linkedin.com/in/alandevkota/) | [**Next Page:** Projects](./another-page.md)
 
 # **Electrical and Computer Engineer**
-- **Software Skills:** Python, C, C++, MATLAB, Core Java and Web Basics
+- **Software Skills:** C, C++, Python, MATLAB, Core Java and Web Basics, Chisel
 - **Scripting:** MATLAB, Python
-- **Neural Network Frameworks:** PyTorch, Keras
+- **Neural Network Frameworks:** PyTorch
 - **Libraries:** numpy, pandas, Matplotlib
 - **HDL, Synthesis and Verification:** Verilog RTL, SystemVerilog, VHDL, Synopsys VCS, Xilinx Vivado
 - **Version Control:** Git
 - **Developer Tools:** Visual Studio Code, Jupyter Notebook, Anaconda
-- **Other Skills:** Linux, Windows, LaTeX, Office Suite, Statistics
+- **Other Skills:** Linux, Windows, LaTeX, Office Suite, Statistics, Scala, Chisel, Rust
 
 # Education
-- Ph.D., ECE | University of Houston | (_Present_)								       		
-- M.S., ECE | Southern Illinois University | (_May 2022_)	 			        		
-- B.S., ECE | Tribhuvan University | (_Sept 2017_)
+- Ph.D., ECE | George Mason University | (_Aug 2025 - Present_)
+- Ph.D., ECE | University of Houston | (_Aug 2022 - May 2025_)								       		
+- M.S., ECE | Southern Illinois University | (_Jan 2020 - May 2022_)	 			        		
+- B.S., ECE | Tribhuvan University | (_2013 - 2017_)
 
 # Work Experience
 **Graduate Research Assistant @ Efficient Computer Systems (ECOMS) Lab, University of Houston (_Aug 2022 - Present_)**
+- Hardware implementation of interactive proof-based chiplet-to-chiplet Built-In-Self-Test (BIST) system that integrates the sumcheck protocol with an innovative on-site computation engine based on dynamically reconfigurable scan chains.
+- Side-channel analysis of CUDA applications on NVIDIA GPUs (Instrument, trace and analyze GPU kernel execution to detect timing-based, control-flow , and data-flow side channel leakage in both host and device for AES cryptography and Number Theoretic Transform CUDA programs)
+
+**Graduate Research Assistant @ Efficient Computer Systems (ECOMS) Lab, University of Houston (_Aug 2022 - May 2025_)**
 - Transformer Neural Networks Attack and Defense, Multimodal Neural Networks, Convolutional Neural Network, Object Detection Transformers, Vision Transformers, Machine learning and AI, Computer Architecture, Computer vision, and Object Detection 
 - Adversarial Attack and Defense on Transformer Neural Networks, Patch-Based Attacks on Vision Transformers, Undervolting noise for Adversarial Training
 
