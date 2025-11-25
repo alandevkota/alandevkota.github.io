@@ -11,7 +11,7 @@
 - **Other Skills:** Linux, Windows, LaTeX, Office Suite, Statistics, Scala, Chisel, Rust
 
 # Education
-- Ph.D., Cybersecurity | George Mason University | (_Aug 2025 - Present_)
+- Ph.D., CYSE | George Mason University | (_Aug 2025 - Present_)
 - Ph.D., ECE | University of Houston | (_Aug 2022 - May 2025_)								       		
 - M.S., ECE | Southern Illinois University | (_Jan 2020 - May 2022_)	 			        		
 - B.S., ECE | Tribhuvan University | (_2013 - 2017_)
