@@ -17,7 +17,7 @@
 - B.S., ECE | Tribhuvan University | (_2013 - 2017_)
 
 # Work Experience
-**Graduate Research Assistant @ Efficient Computer Systems (ECOMS) Lab, University of Houston (_Aug 2022 - Present_)**
+**Graduate Research Assistant @ SPIRE Lab, George Mason University (_Aug 2022 - Present_)**
 - Hardware implementation of interactive proof-based chiplet-to-chiplet Built-In-Self-Test (BIST) system that integrates the sumcheck protocol with an innovative on-site computation engine based on dynamically reconfigurable scan chains.
 - Side-channel analysis of CUDA applications on NVIDIA GPUs (Instrument, trace and analyze GPU kernel execution to detect timing-based, control-flow , and data-flow side channel leakage in both host and device for AES cryptography and Number Theoretic Transform CUDA programs)
 
