@@ -25,6 +25,9 @@
 - Transformer Neural Networks Attack and Defense, Multimodal Neural Networks, Convolutional Neural Network, Object Detection Transformers, Vision Transformers, Machine learning and AI, Computer Architecture, Computer vision, and Object Detection 
 - Adversarial Attack and Defense on Transformer Neural Networks, Patch-Based Attacks on Vision Transformers, Undervolting noise for Adversarial Training
 
+**Graduate Teaching Assistant @ ECE Department, University of Houston (_Fall 2024_)**
+- ECE – 5330/6397 Intro to Robotics, grade assignment and reports
+
 **Graduate Teaching Assistant @ ECE Department, University of Houston (_Spring 2023, Spring 2024_)**
 - ECE 5357 Intro to Cybersecurity, grade assignment and reports
 
