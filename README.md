@@ -152,6 +152,15 @@ A topic we cover in this experimentation is using Detection Transformers (DETR) 
 
 The focus of this research is to develop a transformer model that integrates the information from different modalities together to enhance the prediction as well as address the challenges posed by missing modalities. 
 Our modified DETR transformer encoders extract the features from RGB and IR modality via two parallel ResNet50 backbone and harness the vast potential of heterogeneous data via channel fusion of modalities features (RGB and IR) using two parallel cross-attention encoders unlike the original DETR transformer model.
+![Modified DETR](./MultimodalTransformerAcceleration/ThreeModality_FPGA.png)
+![Modified DETR](./MultimodalTransformerAcceleration/ThreeModalityFusion.png)
+
+****
+
+## RT-DETR RT-DETR (Real-Time Detection Transformer)
+
+Using RT-DETR, an extension to Detection Transformers (DETR), as a means to conduct real-time Object Detection from video as well as webcam. 
+RT-DETR (Real-Time Detection Transformer) represents a significant advancement in object detection technology, combining the efficiency of real-time processing with the robust capabilities of transformer architecture. As a state-of-the-art detection framework, RT-DETR optimizes the balance between computational speed and detection accuracy.
 ![Modified DETR](./MultimodalTransformerAcceleration/object-detected-video.gif)
 ![Modified DETR](./MultimodalTransformerAcceleration/object-detected-webcam.gif)
 

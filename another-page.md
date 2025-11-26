@@ -79,8 +79,24 @@ We use the concept like retrieval from database by using query, keys, and value 
 
 Unlike DETR, our focus in this experiment is to develop a transformer model that integrates information from different modalities together to enhance the prediction. Our modified DETR transformer encoders extract the features from RGB and IR modality via two parallel ResNet50 backbone and harness the vast potential of heterogeneous data via channel fusion of modalities features (RGB and IR) using two parallel cross-attention encoders unlike the original DETR transformer model.
 
+![Modified DETR](./MultimodalTransformerAcceleration/ThreeModality_FPGA.png)
+![Modified DETR](./MultimodalTransformerAcceleration/ThreeModalityFusion.png)
+
 _Please view my project in **Github** for **codes**. NOTE: We will update code after completion of project_ (Click here to open: [ _Github-Repo-link_ ](https://github.com/alandevkota/Multimodal_DETR))
 
+****
+
+## RT-DETR RT-DETR (Real-Time Detection Transformer)
+
+Using RT-DETR, an extension to Detection Transformers (DETR), as a means to conduct real-time Object Detection from video as well as webcam. 
+RT-DETR (Real-Time Detection Transformer) represents a significant advancement in object detection technology, combining the efficiency of real-time processing with the robust capabilities of transformer architecture. As a state-of-the-art detection framework, RT-DETR optimizes the balance between computational speed and detection accuracy.
+
+Our focus is to develop a transformer model that elevates real-time object detection through its Enhanced Hybrid Encoder and Refined Query Selection System. The encoder processes multi-scale features efficiently, while the query selection minimizes uncertainty for improved detection accuracy. The framework offers flexible speed tuning without retraining and simplifies deployment by removing dual NMS thresholds. This innovative design establishes RT-DETR as a powerful alternative to YOLO-based methods, making it suitable for diverse real-time applications requiring both speed and precision
+
+![Modified DETR](./MultimodalTransformerAcceleration/object-detected-video.gif)
+![Modified DETR](./MultimodalTransformerAcceleration/object-detected-webcam.gif)
+
+_Please view my project report in **Github** for **codes**. (Click here to open: [ _Github-Repo-link_ ](https://github.com/alandevkota/Multimodal_DETR))
 
 ****
 
