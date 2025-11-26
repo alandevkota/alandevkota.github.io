@@ -157,7 +157,7 @@ Our modified DETR transformer encoders extract the features from RGB and IR moda
 
 ****
 
-## RT-DETR RT-DETR (Real-Time Detection Transformer)
+## RT-DETR (Real-Time Detection Transformer)
 
 Using RT-DETR, an extension to Detection Transformers (DETR), as a means to conduct real-time Object Detection from video as well as webcam. 
 RT-DETR (Real-Time Detection Transformer) represents a significant advancement in object detection technology, combining the efficiency of real-time processing with the robust capabilities of transformer architecture. As a state-of-the-art detection framework, RT-DETR optimizes the balance between computational speed and detection accuracy.
